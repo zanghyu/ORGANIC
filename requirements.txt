@@ -7,7 +7,6 @@ scipy
 pandas
 matplotlib
 seaborn
-rdkit
 tqdm
 pymatgen
 dill
