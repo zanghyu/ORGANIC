@@ -6,7 +6,7 @@ This implementation is authored by **Carlos Outeiral** (carlos@outeiral.net), **
 
 ## Installation
  
-`pip install -r requirements.txt' and `conda install -c rdkit rdkit`
+`pip install -r requirements.txt` and `conda install -c rdkit rdkit`
 
 or 
 
