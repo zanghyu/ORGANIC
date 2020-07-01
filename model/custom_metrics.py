@@ -15,9 +15,9 @@ from pymatgen.symmetry.analyzer import PointGroupAnalyzer
 from copy import deepcopy
 from math import exp, log
 from collections import OrderedDict
-from nn_metrics import KerasNN
+from model.nn_metrics import KerasNN
 #from gp_metrics import GaussianProcess
-from mol_methods import *
+from model.mol_methods import *
 
 """
 Metrics

@@ -1,7 +1,7 @@
 tensorflow==1.2
 future==0.16.0
-keras
-GPmol
+keras==2.2
+keras_tqdm
 numpy
 scipy
 pandas
@@ -10,3 +10,4 @@ seaborn
 rdkit
 tqdm
 pymatgen
+dill
