@@ -5,26 +5,12 @@
 This implementation is authored by **Carlos Outeiral** (carlos@outeiral.net), **Benjamin Sanchez-Lengeling** (beangoben@gmail.com), **Gabriel Guimaraes** (gabrielguimaraes@college.harvard.edu) and **Alan Aspuru-Guzik** (alan@aspuru.com), affiliated to Harvard University, Department of Chemistry and Chemical Biology, at the time of release.
 
 ## Installation
-### How-to
-To install, just clone our repo:
+ 
+`pip install -r requirements.txt` and `conda install -c rdkit rdkit`
 
-```
-git clone https://github.com/aspuru-guzik-group/ORGANIC.git
-```
+or 
 
-And, it is done!
-
-### Requirements
-
-- tensorflow==1.2
-- future==0.16.0
-- rdkit
-- keras
-- numpy
-- scipy
-- pandas
-- tqdm
-- pymatgen
+`conda env update -f=requirements.yml` 
 
 ## How to use
 
