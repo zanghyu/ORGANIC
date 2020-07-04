@@ -44,7 +44,7 @@ disc_params = {"DIS_L2REG": 0.2, "DIS_EMB_DIM": 32, "DIS_FILTER_SIZES": [
 organ_params.update(disc_params)
 
 model = ORGANIC('test', params=organ_params)
-model.load_training_set('data/smallmols_sub.smi')
+model.load_training_set('data/zinc_25k.smi')
 # model.load_prev_pretraining('pretrain_ckpt/qm9-5k_pretrain_ckpt')
 model.set_training_program(
     ['novelty'], [100])
